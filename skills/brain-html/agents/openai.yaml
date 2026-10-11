@@ -1,0 +1,6 @@
+interface:
+  display_name: "Brain HTML · 5가지 그래프"
+  short_description: "Brain 지식망 · Doctor 레이더 · Funnel 궤도 · AdPilot 지구본 · Personas 조직도"
+  default_prompt: "$brain-html로 인터랙티브 HTML을 만들어줘. Brain·Doctor·Funnel·AdPilot·Personas 보기를 보여주고, 선택하지 않으면 요청에 맞게 골라줘."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,3147 @@
+{
+  "title": "G-BRAIN",
+  "subtitle": "분산된 지식, 사람, 도구를 하나의 살아 있는 구조로.",
+  "eyebrow": "KNOWLEDGE CORE",
+  "theme": "mono",
+  "sample": true,
+  "brain": {
+    "label": "Knowledge Core",
+    "pillars": [
+      {
+        "id": "dept-sales",
+        "name": "Sales",
+        "color": "#ed5460",
+        "agents": [
+          {
+            "name": "Sales Planner",
+            "task": "Sales · Planner",
+            "tools": [
+              "sales-1",
+              "sales-workspace"
+            ]
+          },
+          {
+            "name": "Sales Analyst",
+            "task": "Sales · Analyst",
+            "tools": [
+              "sales-2",
+              "sales-workspace"
+            ]
+          },
+          {
+            "name": "Sales Operator",
+            "task": "Sales · Operator",
+            "tools": [
+              "sales-3",
+              "sales-workspace"
+            ]
+          },
+          {
+            "name": "Sales Reviewer",
+            "task": "Sales · Reviewer",
+            "tools": [
+              "sales-4",
+              "sales-workspace"
+            ]
+          },
+          {
+            "name": "Sales Archivist",
+            "task": "Sales · Archivist",
+            "tools": [
+              "sales-5",
+              "sales-workspace"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dept-finance",
+        "name": "Finances",
+        "color": "#65ca80",
+        "agents": [
+          {
+            "name": "Finances Planner",
+            "task": "Finances · Planner",
+            "tools": [
+              "finance-1",
+              "finance-workspace"
+            ]
+          },
+          {
+            "name": "Finances Analyst",
+            "task": "Finances · Analyst",
+            "tools": [
+              "finance-2",
+              "finance-workspace"
+            ]
+          },
+          {
+            "name": "Finances Operator",
+            "task": "Finances · Operator",
+            "tools": [
+              "finance-3",
+              "finance-workspace"
+            ]
+          },
+          {
+            "name": "Finances Reviewer",
+            "task": "Finances · Reviewer",
+            "tools": [
+              "finance-4",
+              "finance-workspace"
+            ]
+          },
+          {
+            "name": "Finances Archivist",
+            "task": "Finances · Archivist",
+            "tools": [
+              "finance-5",
+              "finance-workspace"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dept-clients",
+        "name": "Clients",
+        "color": "#54cbb5",
+        "agents": [
+          {
+            "name": "Clients Planner",
+            "task": "Clients · Planner",
+            "tools": [
+              "clients-1",
+              "clients-workspace"
+            ]
+          },
+          {
+            "name": "Clients Analyst",
+            "task": "Clients · Analyst",
+            "tools": [
+              "clients-2",
+              "clients-workspace"
+            ]
+          },
+          {
+            "name": "Clients Operator",
+            "task": "Clients · Operator",
+            "tools": [
+              "clients-3",
+              "clients-workspace"
+            ]
+          },
+          {
+            "name": "Clients Reviewer",
+            "task": "Clients · Reviewer",
+            "tools": [
+              "clients-4",
+              "clients-workspace"
+            ]
+          },
+          {
+            "name": "Clients Archivist",
+            "task": "Clients · Archivist",
+            "tools": [
+              "clients-5",
+              "clients-workspace"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dept-marketing-growth",
+        "name": "Marketing/Growth",
+        "color": "#edb647",
+        "agents": [
+          {
+            "name": "Marketing Planner",
+            "task": "Marketing/Growth · Planner",
+            "tools": [
+              "growth-1",
+              "growth-workspace"
+            ]
+          },
+          {
+            "name": "Marketing Analyst",
+            "task": "Marketing/Growth · Analyst",
+            "tools": [
+              "growth-2",
+              "growth-workspace"
+            ]
+          },
+          {
+            "name": "Marketing Operator",
+            "task": "Marketing/Growth · Operator",
+            "tools": [
+              "growth-3",
+              "growth-workspace"
+            ]
+          },
+          {
+            "name": "Marketing Reviewer",
+            "task": "Marketing/Growth · Reviewer",
+            "tools": [
+              "growth-4",
+              "growth-workspace"
+            ]
+          },
+          {
+            "name": "Marketing Archivist",
+            "task": "Marketing/Growth · Archivist",
+            "tools": [
+              "growth-5",
+              "growth-workspace"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dept-tech",
+        "name": "TECH",
+        "color": "#9875ea",
+        "agents": [
+          {
+            "name": "TECH Planner",
+            "task": "TECH · Planner",
+            "tools": [
+              "tech-1",
+              "tech-workspace"
+            ]
+          },
+          {
+            "name": "TECH Analyst",
+            "task": "TECH · Analyst",
+            "tools": [
+              "tech-2",
+              "tech-workspace"
+            ]
+          },
+          {
+            "name": "TECH Operator",
+            "task": "TECH · Operator",
+            "tools": [
+              "tech-3",
+              "tech-workspace"
+            ]
+          },
+          {
+            "name": "TECH Reviewer",
+            "task": "TECH · Reviewer",
+            "tools": [
+              "tech-4",
+              "tech-workspace"
+            ]
+          },
+          {
+            "name": "TECH Archivist",
+            "task": "TECH · Archivist",
+            "tools": [
+              "tech-5",
+              "tech-workspace"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dept-comms",
+        "name": "Communications",
+        "color": "#638deb",
+        "agents": [
+          {
+            "name": "Communications Planner",
+            "task": "Communications · Planner",
+            "tools": [
+              "comms-1",
+              "comms-workspace"
+            ]
+          },
+          {
+            "name": "Communications Analyst",
+            "task": "Communications · Analyst",
+            "tools": [
+              "comms-2",
+              "comms-workspace"
+            ]
+          },
+          {
+            "name": "Communications Operator",
+            "task": "Communications · Operator",
+            "tools": [
+              "comms-3",
+              "comms-workspace"
+            ]
+          },
+          {
+            "name": "Communications Reviewer",
+            "task": "Communications · Reviewer",
+            "tools": [
+              "comms-4",
+              "comms-workspace"
+            ]
+          },
+          {
+            "name": "Communications Archivist",
+            "task": "Communications · Archivist",
+            "tools": [
+              "comms-5",
+              "comms-workspace"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "doctor": {
+    "health": 84,
+    "warnings": 2,
+    "axes": [
+      {
+        "id": "0",
+        "label": "영업",
+        "color": "#ed5460",
+        "score": 65,
+        "roster": 90,
+        "freshness": 55,
+        "sop": 75
+      },
+      {
+        "id": "1",
+        "label": "재무",
+        "color": "#65ca80",
+        "score": 70,
+        "roster": 86,
+        "freshness": 62,
+        "sop": 82
+      },
+      {
+        "id": "2",
+        "label": "고객",
+        "color": "#54cbb5",
+        "score": 75,
+        "roster": 82,
+        "freshness": 69,
+        "sop": 89
+      },
+      {
+        "id": "3",
+        "label": "마케팅·성장",
+        "color": "#edb647",
+        "score": 80,
+        "roster": 78,
+        "freshness": 76,
+        "sop": 96
+      },
+      {
+        "id": "4",
+        "label": "기술",
+        "color": "#9875ea",
+        "score": 85,
+        "roster": 74,
+        "freshness": 83,
+        "sop": 78
+      },
+      {
+        "id": "5",
+        "label": "커뮤니케이션",
+        "color": "#638deb",
+        "score": 90,
+        "roster": 70,
+        "freshness": 90,
+        "sop": 85
+      }
+    ],
+    "clusters": [
+      {
+        "label": "조사 자료",
+        "pages": 12
+      },
+      {
+        "label": "프로젝트",
+        "pages": 16
+      },
+      {
+        "label": "운영 지침",
+        "pages": 20
+      },
+      {
+        "label": "지표",
+        "pages": 24
+      },
+      {
+        "label": "노트",
+        "pages": 28
+      },
+      {
+        "label": "보관 자료",
+        "pages": 32
+      }
+    ],
+    "series": [
+      {
+        "label": "10/01",
+        "count": 3
+      },
+      {
+        "label": "10/02",
+        "count": 10
+      },
+      {
+        "label": "10/03",
+        "count": 17
+      },
+      {
+        "label": "10/04",
+        "count": 6
+      },
+      {
+        "label": "10/05",
+        "count": 13
+      },
+      {
+        "label": "10/06",
+        "count": 20
+      },
+      {
+        "label": "10/07",
+        "count": 9
+      },
+      {
+        "label": "10/08",
+        "count": 16
+      },
+      {
+        "label": "10/09",
+        "count": 5
+      },
+      {
+        "label": "10/10",
+        "count": 12
+      },
+      {
+        "label": "10/11",
+        "count": 19
+      },
+      {
+        "label": "10/12",
+        "count": 8
+      },
+      {
+        "label": "10/13",
+        "count": 15
+      },
+      {
+        "label": "10/14",
+        "count": 4
+      }
+    ]
+  },
+  "funnel": {
+    "now": "2026-10-10T00:00:00Z",
+    "journeys": [
+      {
+        "id": "lead-01",
+        "name": "Sample lead 01",
+        "venture": "vantage",
+        "status": "first_touch",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "cold",
+        "likelihood": 35,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-01-0",
+            "contactId": "lead-01",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "ads",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-01",
+            "acquisition": "instagram"
+          }
+        ]
+      },
+      {
+        "id": "lead-02",
+        "name": "Sample lead 02",
+        "venture": "launchpad-cohort",
+        "status": "engaged",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "warm",
+        "likelihood": 42,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-02-0",
+            "contactId": "lead-02",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-02",
+            "acquisition": "youtube"
+          },
+          {
+            "id": "lead-02-1",
+            "contactId": "lead-02",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "youtube"
+          }
+        ]
+      },
+      {
+        "id": "lead-03",
+        "name": "Sample lead 03",
+        "venture": "vantage",
+        "status": "nurtured",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "hot",
+        "likelihood": 49,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-03-0",
+            "contactId": "lead-03",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "newsletter"
+          },
+          {
+            "id": "lead-03-1",
+            "contactId": "lead-03",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "newsletter"
+          },
+          {
+            "id": "lead-03-2",
+            "contactId": "lead-03",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "newsletter"
+          }
+        ]
+      },
+      {
+        "id": "lead-04",
+        "name": "Sample lead 04",
+        "venture": "launchpad-cohort",
+        "status": "opted_in",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "cold",
+        "likelihood": 56,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-04-0",
+            "contactId": "lead-04",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "ads",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "x_linkedin"
+          },
+          {
+            "id": "lead-04-1",
+            "contactId": "lead-04",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "x_linkedin"
+          },
+          {
+            "id": "lead-04-2",
+            "contactId": "lead-04",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-06",
+            "acquisition": "x_linkedin"
+          },
+          {
+            "id": "lead-04-3",
+            "contactId": "lead-04",
+            "seq": 4,
+            "stage": "opted_in",
+            "channel": "email",
+            "label": "Sample touch 4",
+            "source": "manual",
+            "at": "2026-10-07",
+            "acquisition": "x_linkedin"
+          }
+        ]
+      },
+      {
+        "id": "lead-05",
+        "name": "Sample lead 05",
+        "venture": "vantage",
+        "status": "converted",
+        "product": "Example service",
+        "amountUsd": 1500,
+        "relationship": "warm",
+        "likelihood": 63,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-05-0",
+            "contactId": "lead-05",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-01",
+            "acquisition": "form"
+          },
+          {
+            "id": "lead-05-1",
+            "contactId": "lead-05",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-02",
+            "acquisition": "form"
+          },
+          {
+            "id": "lead-05-2",
+            "contactId": "lead-05",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "form"
+          },
+          {
+            "id": "lead-05-3",
+            "contactId": "lead-05",
+            "seq": 4,
+            "stage": "opted_in",
+            "channel": "email",
+            "label": "Sample touch 4",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "form"
+          },
+          {
+            "id": "lead-05-4",
+            "contactId": "lead-05",
+            "seq": 5,
+            "stage": "converted",
+            "channel": "email",
+            "label": "Sample touch 5",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "form"
+          }
+        ]
+      },
+      {
+        "id": "lead-06",
+        "name": "Sample lead 06",
+        "venture": "launchpad-cohort",
+        "status": "first_touch",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "hot",
+        "likelihood": 70,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-06-0",
+            "contactId": "lead-06",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-02",
+            "acquisition": "word_of_mouth"
+          }
+        ]
+      },
+      {
+        "id": "lead-07",
+        "name": "Sample lead 07",
+        "venture": "vantage",
+        "status": "engaged",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "cold",
+        "likelihood": 77,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-07-0",
+            "contactId": "lead-07",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "ads",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "instagram"
+          },
+          {
+            "id": "lead-07-1",
+            "contactId": "lead-07",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "instagram"
+          }
+        ]
+      },
+      {
+        "id": "lead-08",
+        "name": "Sample lead 08",
+        "venture": "launchpad-cohort",
+        "status": "nurtured",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "warm",
+        "likelihood": 84,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-08-0",
+            "contactId": "lead-08",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "youtube"
+          },
+          {
+            "id": "lead-08-1",
+            "contactId": "lead-08",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "youtube"
+          },
+          {
+            "id": "lead-08-2",
+            "contactId": "lead-08",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-06",
+            "acquisition": "youtube"
+          }
+        ]
+      },
+      {
+        "id": "lead-09",
+        "name": "Sample lead 09",
+        "venture": "vantage",
+        "status": "opted_in",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "hot",
+        "likelihood": 91,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-09-0",
+            "contactId": "lead-09",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-01",
+            "acquisition": "newsletter"
+          },
+          {
+            "id": "lead-09-1",
+            "contactId": "lead-09",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-02",
+            "acquisition": "newsletter"
+          },
+          {
+            "id": "lead-09-2",
+            "contactId": "lead-09",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "newsletter"
+          },
+          {
+            "id": "lead-09-3",
+            "contactId": "lead-09",
+            "seq": 4,
+            "stage": "opted_in",
+            "channel": "email",
+            "label": "Sample touch 4",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "newsletter"
+          }
+        ]
+      },
+      {
+        "id": "lead-10",
+        "name": "Sample lead 10",
+        "venture": "launchpad-cohort",
+        "status": "converted",
+        "product": "Example service",
+        "amountUsd": 1875,
+        "relationship": "cold",
+        "likelihood": 98,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-10-0",
+            "contactId": "lead-10",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "ads",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-02",
+            "acquisition": "x_linkedin"
+          },
+          {
+            "id": "lead-10-1",
+            "contactId": "lead-10",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "x_linkedin"
+          },
+          {
+            "id": "lead-10-2",
+            "contactId": "lead-10",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "x_linkedin"
+          },
+          {
+            "id": "lead-10-3",
+            "contactId": "lead-10",
+            "seq": 4,
+            "stage": "opted_in",
+            "channel": "email",
+            "label": "Sample touch 4",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "x_linkedin"
+          },
+          {
+            "id": "lead-10-4",
+            "contactId": "lead-10",
+            "seq": 5,
+            "stage": "converted",
+            "channel": "email",
+            "label": "Sample touch 5",
+            "source": "manual",
+            "at": "2026-10-06",
+            "acquisition": "x_linkedin"
+          }
+        ]
+      },
+      {
+        "id": "lead-11",
+        "name": "Sample lead 11",
+        "venture": "vantage",
+        "status": "first_touch",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "warm",
+        "likelihood": 39,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-11-0",
+            "contactId": "lead-11",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "form"
+          }
+        ]
+      },
+      {
+        "id": "lead-12",
+        "name": "Sample lead 12",
+        "venture": "launchpad-cohort",
+        "status": "engaged",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "hot",
+        "likelihood": 46,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-12-0",
+            "contactId": "lead-12",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "word_of_mouth"
+          },
+          {
+            "id": "lead-12-1",
+            "contactId": "lead-12",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "word_of_mouth"
+          }
+        ]
+      },
+      {
+        "id": "lead-13",
+        "name": "Sample lead 13",
+        "venture": "vantage",
+        "status": "nurtured",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "cold",
+        "likelihood": 53,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-13-0",
+            "contactId": "lead-13",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "ads",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-01",
+            "acquisition": "instagram"
+          },
+          {
+            "id": "lead-13-1",
+            "contactId": "lead-13",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-02",
+            "acquisition": "instagram"
+          },
+          {
+            "id": "lead-13-2",
+            "contactId": "lead-13",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "instagram"
+          }
+        ]
+      },
+      {
+        "id": "lead-14",
+        "name": "Sample lead 14",
+        "venture": "launchpad-cohort",
+        "status": "opted_in",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "warm",
+        "likelihood": 60,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-14-0",
+            "contactId": "lead-14",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-02",
+            "acquisition": "youtube"
+          },
+          {
+            "id": "lead-14-1",
+            "contactId": "lead-14",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "youtube"
+          },
+          {
+            "id": "lead-14-2",
+            "contactId": "lead-14",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "youtube"
+          },
+          {
+            "id": "lead-14-3",
+            "contactId": "lead-14",
+            "seq": 4,
+            "stage": "opted_in",
+            "channel": "email",
+            "label": "Sample touch 4",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "youtube"
+          }
+        ]
+      },
+      {
+        "id": "lead-15",
+        "name": "Sample lead 15",
+        "venture": "vantage",
+        "status": "converted",
+        "product": "Example service",
+        "amountUsd": 2250,
+        "relationship": "hot",
+        "likelihood": 67,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-15-0",
+            "contactId": "lead-15",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "newsletter"
+          },
+          {
+            "id": "lead-15-1",
+            "contactId": "lead-15",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "newsletter"
+          },
+          {
+            "id": "lead-15-2",
+            "contactId": "lead-15",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "newsletter"
+          },
+          {
+            "id": "lead-15-3",
+            "contactId": "lead-15",
+            "seq": 4,
+            "stage": "opted_in",
+            "channel": "email",
+            "label": "Sample touch 4",
+            "source": "manual",
+            "at": "2026-10-06",
+            "acquisition": "newsletter"
+          },
+          {
+            "id": "lead-15-4",
+            "contactId": "lead-15",
+            "seq": 5,
+            "stage": "converted",
+            "channel": "email",
+            "label": "Sample touch 5",
+            "source": "manual",
+            "at": "2026-10-07",
+            "acquisition": "newsletter"
+          }
+        ]
+      },
+      {
+        "id": "lead-16",
+        "name": "Sample lead 16",
+        "venture": "launchpad-cohort",
+        "status": "first_touch",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "cold",
+        "likelihood": 74,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-16-0",
+            "contactId": "lead-16",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "ads",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "x_linkedin"
+          }
+        ]
+      },
+      {
+        "id": "lead-17",
+        "name": "Sample lead 17",
+        "venture": "vantage",
+        "status": "engaged",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "warm",
+        "likelihood": 81,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-17-0",
+            "contactId": "lead-17",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-01",
+            "acquisition": "form"
+          },
+          {
+            "id": "lead-17-1",
+            "contactId": "lead-17",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-02",
+            "acquisition": "form"
+          }
+        ]
+      },
+      {
+        "id": "lead-18",
+        "name": "Sample lead 18",
+        "venture": "launchpad-cohort",
+        "status": "nurtured",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "hot",
+        "likelihood": 88,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-18-0",
+            "contactId": "lead-18",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-02",
+            "acquisition": "word_of_mouth"
+          },
+          {
+            "id": "lead-18-1",
+            "contactId": "lead-18",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "word_of_mouth"
+          },
+          {
+            "id": "lead-18-2",
+            "contactId": "lead-18",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "word_of_mouth"
+          }
+        ]
+      },
+      {
+        "id": "lead-19",
+        "name": "Sample lead 19",
+        "venture": "vantage",
+        "status": "opted_in",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "cold",
+        "likelihood": 95,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-19-0",
+            "contactId": "lead-19",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "ads",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "instagram"
+          },
+          {
+            "id": "lead-19-1",
+            "contactId": "lead-19",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "instagram"
+          },
+          {
+            "id": "lead-19-2",
+            "contactId": "lead-19",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "instagram"
+          },
+          {
+            "id": "lead-19-3",
+            "contactId": "lead-19",
+            "seq": 4,
+            "stage": "opted_in",
+            "channel": "email",
+            "label": "Sample touch 4",
+            "source": "manual",
+            "at": "2026-10-06",
+            "acquisition": "instagram"
+          }
+        ]
+      },
+      {
+        "id": "lead-20",
+        "name": "Sample lead 20",
+        "venture": "launchpad-cohort",
+        "status": "converted",
+        "product": "Example service",
+        "amountUsd": 2625,
+        "relationship": "warm",
+        "likelihood": 36,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-20-0",
+            "contactId": "lead-20",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "youtube"
+          },
+          {
+            "id": "lead-20-1",
+            "contactId": "lead-20",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "youtube"
+          },
+          {
+            "id": "lead-20-2",
+            "contactId": "lead-20",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-06",
+            "acquisition": "youtube"
+          },
+          {
+            "id": "lead-20-3",
+            "contactId": "lead-20",
+            "seq": 4,
+            "stage": "opted_in",
+            "channel": "email",
+            "label": "Sample touch 4",
+            "source": "manual",
+            "at": "2026-10-07",
+            "acquisition": "youtube"
+          },
+          {
+            "id": "lead-20-4",
+            "contactId": "lead-20",
+            "seq": 5,
+            "stage": "converted",
+            "channel": "email",
+            "label": "Sample touch 5",
+            "source": "manual",
+            "at": "2026-10-08",
+            "acquisition": "youtube"
+          }
+        ]
+      },
+      {
+        "id": "lead-21",
+        "name": "Sample lead 21",
+        "venture": "vantage",
+        "status": "first_touch",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "hot",
+        "likelihood": 43,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-21-0",
+            "contactId": "lead-21",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-01",
+            "acquisition": "newsletter"
+          }
+        ]
+      },
+      {
+        "id": "lead-22",
+        "name": "Sample lead 22",
+        "venture": "launchpad-cohort",
+        "status": "engaged",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "cold",
+        "likelihood": 50,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-22-0",
+            "contactId": "lead-22",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "ads",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-02",
+            "acquisition": "x_linkedin"
+          },
+          {
+            "id": "lead-22-1",
+            "contactId": "lead-22",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "x_linkedin"
+          }
+        ]
+      },
+      {
+        "id": "lead-23",
+        "name": "Sample lead 23",
+        "venture": "vantage",
+        "status": "nurtured",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "warm",
+        "likelihood": 57,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-23-0",
+            "contactId": "lead-23",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "form"
+          },
+          {
+            "id": "lead-23-1",
+            "contactId": "lead-23",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "form"
+          },
+          {
+            "id": "lead-23-2",
+            "contactId": "lead-23",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "form"
+          }
+        ]
+      },
+      {
+        "id": "lead-24",
+        "name": "Sample lead 24",
+        "venture": "launchpad-cohort",
+        "status": "opted_in",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "hot",
+        "likelihood": 64,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-24-0",
+            "contactId": "lead-24",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "word_of_mouth"
+          },
+          {
+            "id": "lead-24-1",
+            "contactId": "lead-24",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "word_of_mouth"
+          },
+          {
+            "id": "lead-24-2",
+            "contactId": "lead-24",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-06",
+            "acquisition": "word_of_mouth"
+          },
+          {
+            "id": "lead-24-3",
+            "contactId": "lead-24",
+            "seq": 4,
+            "stage": "opted_in",
+            "channel": "email",
+            "label": "Sample touch 4",
+            "source": "manual",
+            "at": "2026-10-07",
+            "acquisition": "word_of_mouth"
+          }
+        ]
+      },
+      {
+        "id": "lead-25",
+        "name": "Sample lead 25",
+        "venture": "vantage",
+        "status": "converted",
+        "product": "Example service",
+        "amountUsd": 3000,
+        "relationship": "cold",
+        "likelihood": 71,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-25-0",
+            "contactId": "lead-25",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "ads",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-01",
+            "acquisition": "instagram"
+          },
+          {
+            "id": "lead-25-1",
+            "contactId": "lead-25",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-02",
+            "acquisition": "instagram"
+          },
+          {
+            "id": "lead-25-2",
+            "contactId": "lead-25",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "instagram"
+          },
+          {
+            "id": "lead-25-3",
+            "contactId": "lead-25",
+            "seq": 4,
+            "stage": "opted_in",
+            "channel": "email",
+            "label": "Sample touch 4",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "instagram"
+          },
+          {
+            "id": "lead-25-4",
+            "contactId": "lead-25",
+            "seq": 5,
+            "stage": "converted",
+            "channel": "email",
+            "label": "Sample touch 5",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "instagram"
+          }
+        ]
+      },
+      {
+        "id": "lead-26",
+        "name": "Sample lead 26",
+        "venture": "launchpad-cohort",
+        "status": "first_touch",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "warm",
+        "likelihood": 78,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-26-0",
+            "contactId": "lead-26",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-02",
+            "acquisition": "youtube"
+          }
+        ]
+      },
+      {
+        "id": "lead-27",
+        "name": "Sample lead 27",
+        "venture": "vantage",
+        "status": "engaged",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "hot",
+        "likelihood": 85,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-27-0",
+            "contactId": "lead-27",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "newsletter"
+          },
+          {
+            "id": "lead-27-1",
+            "contactId": "lead-27",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "newsletter"
+          }
+        ]
+      },
+      {
+        "id": "lead-28",
+        "name": "Sample lead 28",
+        "venture": "launchpad-cohort",
+        "status": "nurtured",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "cold",
+        "likelihood": 92,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-28-0",
+            "contactId": "lead-28",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "ads",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "x_linkedin"
+          },
+          {
+            "id": "lead-28-1",
+            "contactId": "lead-28",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "x_linkedin"
+          },
+          {
+            "id": "lead-28-2",
+            "contactId": "lead-28",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-06",
+            "acquisition": "x_linkedin"
+          }
+        ]
+      },
+      {
+        "id": "lead-29",
+        "name": "Sample lead 29",
+        "venture": "vantage",
+        "status": "opted_in",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "warm",
+        "likelihood": 99,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-29-0",
+            "contactId": "lead-29",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-01",
+            "acquisition": "form"
+          },
+          {
+            "id": "lead-29-1",
+            "contactId": "lead-29",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-02",
+            "acquisition": "form"
+          },
+          {
+            "id": "lead-29-2",
+            "contactId": "lead-29",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "form"
+          },
+          {
+            "id": "lead-29-3",
+            "contactId": "lead-29",
+            "seq": 4,
+            "stage": "opted_in",
+            "channel": "email",
+            "label": "Sample touch 4",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "form"
+          }
+        ]
+      },
+      {
+        "id": "lead-30",
+        "name": "Sample lead 30",
+        "venture": "launchpad-cohort",
+        "status": "converted",
+        "product": "Example service",
+        "amountUsd": 3375,
+        "relationship": "hot",
+        "likelihood": 40,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-30-0",
+            "contactId": "lead-30",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-02",
+            "acquisition": "word_of_mouth"
+          },
+          {
+            "id": "lead-30-1",
+            "contactId": "lead-30",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "word_of_mouth"
+          },
+          {
+            "id": "lead-30-2",
+            "contactId": "lead-30",
+            "seq": 3,
+            "stage": "nurtured",
+            "channel": "email",
+            "label": "Sample touch 3",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "word_of_mouth"
+          },
+          {
+            "id": "lead-30-3",
+            "contactId": "lead-30",
+            "seq": 4,
+            "stage": "opted_in",
+            "channel": "email",
+            "label": "Sample touch 4",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "word_of_mouth"
+          },
+          {
+            "id": "lead-30-4",
+            "contactId": "lead-30",
+            "seq": 5,
+            "stage": "converted",
+            "channel": "email",
+            "label": "Sample touch 5",
+            "source": "manual",
+            "at": "2026-10-06",
+            "acquisition": "word_of_mouth"
+          }
+        ]
+      },
+      {
+        "id": "lead-31",
+        "name": "Sample lead 31",
+        "venture": "vantage",
+        "status": "first_touch",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "cold",
+        "likelihood": 47,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-31-0",
+            "contactId": "lead-31",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "ads",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-03",
+            "acquisition": "instagram"
+          }
+        ]
+      },
+      {
+        "id": "lead-32",
+        "name": "Sample lead 32",
+        "venture": "launchpad-cohort",
+        "status": "engaged",
+        "product": null,
+        "amountUsd": null,
+        "relationship": "warm",
+        "likelihood": 54,
+        "url": null,
+        "email": null,
+        "phone": null,
+        "person": null,
+        "company": null,
+        "role": null,
+        "linkedin": null,
+        "createdAt": "2026-10-01",
+        "touches": [
+          {
+            "id": "lead-32-0",
+            "contactId": "lead-32",
+            "seq": 1,
+            "stage": "first_touch",
+            "channel": "organic",
+            "label": "Sample touch 1",
+            "source": "manual",
+            "at": "2026-10-04",
+            "acquisition": "youtube"
+          },
+          {
+            "id": "lead-32-1",
+            "contactId": "lead-32",
+            "seq": 2,
+            "stage": "engaged",
+            "channel": "email",
+            "label": "Sample touch 2",
+            "source": "manual",
+            "at": "2026-10-05",
+            "acquisition": "youtube"
+          }
+        ]
+      }
+    ]
+  },
+  "adpilot": {
+    "campaigns": [
+      {
+        "id": "campaign-0",
+        "name": "Signal / Discovery",
+        "objective": "leads",
+        "status": "active",
+        "platform": "Sample Ads",
+        "period": {
+          "from": "2026-09-01",
+          "to": "2026-09-30"
+        },
+        "spend": 2329,
+        "impressions": 126000,
+        "clicks": 6000,
+        "leads": 435,
+        "bookings": 135,
+        "purchases": 45,
+        "revenue": 7800,
+        "audience": {
+          "age": {
+            "18–24": 12,
+            "25–34": 47,
+            "35–44": 29,
+            "45+": 12
+          },
+          "gender": {
+            "여성": 54,
+            "남성": 46
+          },
+          "placements": {
+            "Feed": 45,
+            "Stories": 35,
+            "Reels": 20
+          }
+        },
+        "geo": [
+          {
+            "city": "Seoul",
+            "country": "KR",
+            "lat": 37.5665,
+            "lng": 126.978,
+            "leads": 15,
+            "bookings": 3
+          },
+          {
+            "city": "Tokyo",
+            "country": "JP",
+            "lat": 35.6762,
+            "lng": 139.6503,
+            "leads": 52,
+            "bookings": 14
+          },
+          {
+            "city": "Singapore",
+            "country": "SG",
+            "lat": 1.3521,
+            "lng": 103.8198,
+            "leads": 89,
+            "bookings": 3
+          },
+          {
+            "city": "London",
+            "country": "GB",
+            "lat": 51.5074,
+            "lng": -0.1278,
+            "leads": 126,
+            "bookings": 14
+          },
+          {
+            "city": "New York",
+            "country": "US",
+            "lat": 40.7128,
+            "lng": -74.006,
+            "leads": 163,
+            "bookings": 3
+          },
+          {
+            "city": "Sydney",
+            "country": "AU",
+            "lat": -33.8688,
+            "lng": 151.2093,
+            "leads": 50,
+            "bookings": 14
+          }
+        ],
+        "daily": [
+          {
+            "date": "2026-09-01",
+            "spend": 50,
+            "leads": 7,
+            "bookings": 2
+          },
+          {
+            "date": "2026-09-02",
+            "spend": 67,
+            "leads": 10,
+            "bookings": 3
+          },
+          {
+            "date": "2026-09-03",
+            "spend": 84,
+            "leads": 13,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-04",
+            "spend": 101,
+            "leads": 16,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-05",
+            "spend": 51,
+            "leads": 19,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-06",
+            "spend": 68,
+            "leads": 22,
+            "bookings": 7
+          },
+          {
+            "date": "2026-09-07",
+            "spend": 85,
+            "leads": 7,
+            "bookings": 2
+          },
+          {
+            "date": "2026-09-08",
+            "spend": 102,
+            "leads": 10,
+            "bookings": 3
+          },
+          {
+            "date": "2026-09-09",
+            "spend": 52,
+            "leads": 13,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-10",
+            "spend": 69,
+            "leads": 16,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-11",
+            "spend": 86,
+            "leads": 19,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-12",
+            "spend": 103,
+            "leads": 22,
+            "bookings": 7
+          },
+          {
+            "date": "2026-09-13",
+            "spend": 53,
+            "leads": 7,
+            "bookings": 2
+          },
+          {
+            "date": "2026-09-14",
+            "spend": 70,
+            "leads": 10,
+            "bookings": 3
+          },
+          {
+            "date": "2026-09-15",
+            "spend": 87,
+            "leads": 13,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-16",
+            "spend": 104,
+            "leads": 16,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-17",
+            "spend": 54,
+            "leads": 19,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-18",
+            "spend": 71,
+            "leads": 22,
+            "bookings": 7
+          },
+          {
+            "date": "2026-09-19",
+            "spend": 88,
+            "leads": 7,
+            "bookings": 2
+          },
+          {
+            "date": "2026-09-20",
+            "spend": 105,
+            "leads": 10,
+            "bookings": 3
+          },
+          {
+            "date": "2026-09-21",
+            "spend": 55,
+            "leads": 13,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-22",
+            "spend": 72,
+            "leads": 16,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-23",
+            "spend": 89,
+            "leads": 19,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-24",
+            "spend": 106,
+            "leads": 22,
+            "bookings": 7
+          },
+          {
+            "date": "2026-09-25",
+            "spend": 56,
+            "leads": 7,
+            "bookings": 2
+          },
+          {
+            "date": "2026-09-26",
+            "spend": 73,
+            "leads": 10,
+            "bookings": 3
+          },
+          {
+            "date": "2026-09-27",
+            "spend": 90,
+            "leads": 13,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-28",
+            "spend": 107,
+            "leads": 16,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-29",
+            "spend": 57,
+            "leads": 19,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-30",
+            "spend": 74,
+            "leads": 22,
+            "bookings": 7
+          }
+        ]
+      },
+      {
+        "id": "campaign-1",
+        "name": "Orbit / Retargeting",
+        "objective": "bookings",
+        "status": "active",
+        "platform": "Sample Ads",
+        "period": {
+          "from": "2026-09-01",
+          "to": "2026-09-30"
+        },
+        "spend": 3139,
+        "impressions": 164000,
+        "clicks": 7700,
+        "leads": 465,
+        "bookings": 135,
+        "purchases": 57,
+        "revenue": 11200,
+        "audience": {
+          "age": {
+            "18–24": 12,
+            "25–34": 47,
+            "35–44": 29,
+            "45+": 12
+          },
+          "gender": {
+            "여성": 54,
+            "남성": 46
+          },
+          "placements": {
+            "Feed": 45,
+            "Stories": 35,
+            "Reels": 20
+          }
+        },
+        "geo": [
+          {
+            "city": "Seoul",
+            "country": "KR",
+            "lat": 37.5665,
+            "lng": 126.978,
+            "leads": 34,
+            "bookings": 4
+          },
+          {
+            "city": "Tokyo",
+            "country": "JP",
+            "lat": 35.6762,
+            "lng": 139.6503,
+            "leads": 71,
+            "bookings": 15
+          },
+          {
+            "city": "Singapore",
+            "country": "SG",
+            "lat": 1.3521,
+            "lng": 103.8198,
+            "leads": 108,
+            "bookings": 4
+          },
+          {
+            "city": "London",
+            "country": "GB",
+            "lat": 51.5074,
+            "lng": -0.1278,
+            "leads": 145,
+            "bookings": 15
+          },
+          {
+            "city": "New York",
+            "country": "US",
+            "lat": 40.7128,
+            "lng": -74.006,
+            "leads": 32,
+            "bookings": 4
+          },
+          {
+            "city": "Sydney",
+            "country": "AU",
+            "lat": -33.8688,
+            "lng": 151.2093,
+            "leads": 69,
+            "bookings": 15
+          }
+        ],
+        "daily": [
+          {
+            "date": "2026-09-01",
+            "spend": 77,
+            "leads": 8,
+            "bookings": 3
+          },
+          {
+            "date": "2026-09-02",
+            "spend": 94,
+            "leads": 11,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-03",
+            "spend": 111,
+            "leads": 14,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-04",
+            "spend": 128,
+            "leads": 17,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-05",
+            "spend": 78,
+            "leads": 20,
+            "bookings": 7
+          },
+          {
+            "date": "2026-09-06",
+            "spend": 95,
+            "leads": 23,
+            "bookings": 2
+          },
+          {
+            "date": "2026-09-07",
+            "spend": 112,
+            "leads": 8,
+            "bookings": 3
+          },
+          {
+            "date": "2026-09-08",
+            "spend": 129,
+            "leads": 11,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-09",
+            "spend": 79,
+            "leads": 14,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-10",
+            "spend": 96,
+            "leads": 17,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-11",
+            "spend": 113,
+            "leads": 20,
+            "bookings": 7
+          },
+          {
+            "date": "2026-09-12",
+            "spend": 130,
+            "leads": 23,
+            "bookings": 2
+          },
+          {
+            "date": "2026-09-13",
+            "spend": 80,
+            "leads": 8,
+            "bookings": 3
+          },
+          {
+            "date": "2026-09-14",
+            "spend": 97,
+            "leads": 11,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-15",
+            "spend": 114,
+            "leads": 14,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-16",
+            "spend": 131,
+            "leads": 17,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-17",
+            "spend": 81,
+            "leads": 20,
+            "bookings": 7
+          },
+          {
+            "date": "2026-09-18",
+            "spend": 98,
+            "leads": 23,
+            "bookings": 2
+          },
+          {
+            "date": "2026-09-19",
+            "spend": 115,
+            "leads": 8,
+            "bookings": 3
+          },
+          {
+            "date": "2026-09-20",
+            "spend": 132,
+            "leads": 11,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-21",
+            "spend": 82,
+            "leads": 14,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-22",
+            "spend": 99,
+            "leads": 17,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-23",
+            "spend": 116,
+            "leads": 20,
+            "bookings": 7
+          },
+          {
+            "date": "2026-09-24",
+            "spend": 133,
+            "leads": 23,
+            "bookings": 2
+          },
+          {
+            "date": "2026-09-25",
+            "spend": 83,
+            "leads": 8,
+            "bookings": 3
+          },
+          {
+            "date": "2026-09-26",
+            "spend": 100,
+            "leads": 11,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-27",
+            "spend": 117,
+            "leads": 14,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-28",
+            "spend": 134,
+            "leads": 17,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-29",
+            "spend": 84,
+            "leads": 20,
+            "bookings": 7
+          },
+          {
+            "date": "2026-09-30",
+            "spend": 101,
+            "leads": 23,
+            "bookings": 2
+          }
+        ]
+      },
+      {
+        "id": "campaign-2",
+        "name": "Core / Conversion",
+        "objective": "purchases",
+        "status": "active",
+        "platform": "Sample Ads",
+        "period": {
+          "from": "2026-09-01",
+          "to": "2026-09-30"
+        },
+        "spend": 3882,
+        "impressions": 202000,
+        "clicks": 9400,
+        "leads": 495,
+        "bookings": 135,
+        "purchases": 69,
+        "revenue": 14600,
+        "audience": {
+          "age": {
+            "18–24": 12,
+            "25–34": 47,
+            "35–44": 29,
+            "45+": 12
+          },
+          "gender": {
+            "여성": 54,
+            "남성": 46
+          },
+          "placements": {
+            "Feed": 45,
+            "Stories": 35,
+            "Reels": 20
+          }
+        },
+        "geo": [
+          {
+            "city": "Seoul",
+            "country": "KR",
+            "lat": 37.5665,
+            "lng": 126.978,
+            "leads": 53,
+            "bookings": 5
+          },
+          {
+            "city": "Tokyo",
+            "country": "JP",
+            "lat": 35.6762,
+            "lng": 139.6503,
+            "leads": 90,
+            "bookings": 16
+          },
+          {
+            "city": "Singapore",
+            "country": "SG",
+            "lat": 1.3521,
+            "lng": 103.8198,
+            "leads": 127,
+            "bookings": 5
+          },
+          {
+            "city": "London",
+            "country": "GB",
+            "lat": 51.5074,
+            "lng": -0.1278,
+            "leads": 164,
+            "bookings": 16
+          },
+          {
+            "city": "New York",
+            "country": "US",
+            "lat": 40.7128,
+            "lng": -74.006,
+            "leads": 51,
+            "bookings": 5
+          },
+          {
+            "city": "Sydney",
+            "country": "AU",
+            "lat": -33.8688,
+            "lng": 151.2093,
+            "leads": 88,
+            "bookings": 16
+          }
+        ],
+        "daily": [
+          {
+            "date": "2026-09-01",
+            "spend": 104,
+            "leads": 9,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-02",
+            "spend": 121,
+            "leads": 12,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-03",
+            "spend": 138,
+            "leads": 15,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-04",
+            "spend": 155,
+            "leads": 18,
+            "bookings": 7
+          },
+          {
+            "date": "2026-09-05",
+            "spend": 105,
+            "leads": 21,
+            "bookings": 2
+          },
+          {
+            "date": "2026-09-06",
+            "spend": 122,
+            "leads": 24,
+            "bookings": 3
+          },
+          {
+            "date": "2026-09-07",
+            "spend": 139,
+            "leads": 9,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-08",
+            "spend": 156,
+            "leads": 12,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-09",
+            "spend": 106,
+            "leads": 15,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-10",
+            "spend": 123,
+            "leads": 18,
+            "bookings": 7
+          },
+          {
+            "date": "2026-09-11",
+            "spend": 140,
+            "leads": 21,
+            "bookings": 2
+          },
+          {
+            "date": "2026-09-12",
+            "spend": 157,
+            "leads": 24,
+            "bookings": 3
+          },
+          {
+            "date": "2026-09-13",
+            "spend": 107,
+            "leads": 9,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-14",
+            "spend": 124,
+            "leads": 12,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-15",
+            "spend": 141,
+            "leads": 15,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-16",
+            "spend": 158,
+            "leads": 18,
+            "bookings": 7
+          },
+          {
+            "date": "2026-09-17",
+            "spend": 108,
+            "leads": 21,
+            "bookings": 2
+          },
+          {
+            "date": "2026-09-18",
+            "spend": 125,
+            "leads": 24,
+            "bookings": 3
+          },
+          {
+            "date": "2026-09-19",
+            "spend": 142,
+            "leads": 9,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-20",
+            "spend": 159,
+            "leads": 12,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-21",
+            "spend": 109,
+            "leads": 15,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-22",
+            "spend": 126,
+            "leads": 18,
+            "bookings": 7
+          },
+          {
+            "date": "2026-09-23",
+            "spend": 143,
+            "leads": 21,
+            "bookings": 2
+          },
+          {
+            "date": "2026-09-24",
+            "spend": 160,
+            "leads": 24,
+            "bookings": 3
+          },
+          {
+            "date": "2026-09-25",
+            "spend": 110,
+            "leads": 9,
+            "bookings": 4
+          },
+          {
+            "date": "2026-09-26",
+            "spend": 127,
+            "leads": 12,
+            "bookings": 5
+          },
+          {
+            "date": "2026-09-27",
+            "spend": 144,
+            "leads": 15,
+            "bookings": 6
+          },
+          {
+            "date": "2026-09-28",
+            "spend": 94,
+            "leads": 18,
+            "bookings": 7
+          },
+          {
+            "date": "2026-09-29",
+            "spend": 111,
+            "leads": 21,
+            "bookings": 2
+          },
+          {
+            "date": "2026-09-30",
+            "spend": 128,
+            "leads": 24,
+            "bookings": 3
+          }
+        ]
+      }
+    ]
+  },
+  "personas": [
+    {
+      "id": "persona-marketing-agency",
+      "order": 1,
+      "name": "에이전시 대표",
+      "archetype": "에이전시 운영자",
+      "tagline": "4명으로 구성된 팀이 14개 고객사의 정기 계약을 빈틈없이 관리합니다.",
+      "summary": "고객 업무 수행, 신규 영업, 성과 보고를 함께 책임지는 마케팅·크리에이티브 에이전시 대표입니다. 이 운영체계는 작은 팀의 복잡한 업무를 한눈에 관리할 수 있는 흐름으로 정리합니다. 계약별 업무 범위, 마감일, 산출물, 월간 보고서를 체계적으로 관리해 누락과 고객 이탈 징후를 놓치지 않습니다.",
+      "accent": "#3df08c",
+      "northStar": "정기 계약 순월반복매출 유지 — 새로 수주한 매출뿐 아니라 실제로 지켜낸 매출",
+      "pillars": [
+        {
+          "name": "신규 영업",
+          "focus": "잠재 고객 발굴부터 정기 계약 체결·제안서 작성까지",
+          "agents": [
+            "영업 흐름 관리",
+            "제안서 작성",
+            "상담 일정 조율",
+            "수주·실주 기록"
+          ]
+        },
+        {
+          "name": "고객 업무 수행",
+          "focus": "고객사별 계약 범위·마감일·산출물 관리",
+          "agents": [
+            "고객사 관리",
+            "마감 일정 점검",
+            "업무 범위 관리",
+            "품질 검토"
+          ]
+        },
+        {
+          "name": "콘텐츠 제작",
+          "focus": "제작물 관리·브랜드 일관성·승인 절차",
+          "agents": [
+            "제작 요청 정리",
+            "제작물 관리",
+            "브랜드 기준 점검",
+            "승인 일정 관리"
+          ]
+        },
+        {
+          "name": "성과 보고·고객 유지",
+          "focus": "월간 보고·고객 상태 평가·이탈 예방",
+          "agents": [
+            "보고서 취합",
+            "고객 상태 평가",
+            "이탈 징후 감지",
+            "분기 리뷰 준비"
+          ]
+        },
+        {
+          "name": "에이전시 운영",
+          "focus": "팀 가동률·청구·고객사별 수익성 관리",
+          "agents": [
+            "팀 업무량 계획",
+            "청구서 발행",
+            "수익성 점검",
+            "작업 시간 검토"
+          ]
+        }
+      ],
+      "connectors": [
+        "허브스팟 CRM",
+        "아사나",
+        "슬랙",
+        "구글 애널리틱스 4",
+        "메타 광고 관리자",
+        "구글 광고",
+        "하베스트",
+        "퀵북스 온라인"
+      ],
+      "metrics": [
+        "정기 계약 순월반복매출",
+        "고객 유지 상태 점수",
+        "납기 준수율",
+        "팀 가동률",
+        "고객사별 매출총이익률"
+      ],
+      "brainUse": "모든 에이전트가 공유 브레인에서 고객사별 브랜드 지침, 계약 업무 범위, 과거 승인 내역, 거래 이력을 확인합니다. 같은 설명을 반복하지 않아도 제안서·제작물·보고서에 각 고객사의 표현 방식과 기준을 일관되게 반영합니다.",
+      "signaturePlay": "매월 1일, 보고서 취합 에이전트가 모든 활성 계약의 구글 애널리틱스 4·메타·구글 광고 수치를 모아 고객사별 브랜드와 표현 방식에 맞는 보고서 초안을 작성합니다. 고객 상태 평가 에이전트는 이탈 위험이 커지는 고객사를 표시합니다. 대표는 분기별 성과 리뷰 전에 위험 고객과 추가 제안 기회를 파악할 수 있습니다."
+    },
+    {
+      "id": "persona-brick-and-mortar",
+      "order": 2,
+      "name": "다점포 운영자",
+      "archetype": "오프라인 사업자",
+      "tagline": "6개 지점의 인력·재고·리뷰·방문객 현황을 한 화면에서 확인합니다.",
+      "summary": "식음료·소매 매장 6곳을 하나의 관리 화면으로 운영하는 창업자입니다. 판매시점정보(POS), 근무 인력, 재고, 지역 평판 데이터를 한데 모아 대표가 현장에 없어도 각 지점이 운영 목표를 달성하도록 돕습니다.",
+      "accent": "#5ec9f8",
+      "northStar": "전체 지점을 통합한 근무 시간당 기존점 매출",
+      "pillars": [
+        {
+          "name": "매장 운영",
+          "focus": "지점별 인력 배치·교대 근무·인건비 관리",
+          "agents": [
+            "인력 배치",
+            "결원 충원",
+            "인건비 점검"
+          ]
+        },
+        {
+          "name": "재고·원가",
+          "focus": "재고·매출원가·거래처 청구서·폐기 관리",
+          "agents": [
+            "재고 수량 관리",
+            "청구 내역 대조",
+            "폐기량 점검",
+            "재주문 관리"
+          ]
+        },
+        {
+          "name": "지역 평판",
+          "focus": "지점별 리뷰·지역 검색·업체 정보 관리",
+          "agents": [
+            "리뷰 수집",
+            "리뷰 답변",
+            "업체 정보 점검"
+          ]
+        },
+        {
+          "name": "방문객·매출",
+          "focus": "방문객 수·처리량·시간대별 매출·단골 관리",
+          "agents": [
+            "방문객 집계",
+            "시간대별 분석",
+            "단골 고객 관리"
+          ]
+        },
+        {
+          "name": "경영 지원",
+          "focus": "결제·급여·현금·사업체별 손익 관리",
+          "agents": [
+            "매출 정산",
+            "급여 처리",
+            "손익 마감"
+          ]
+        }
+      ],
+      "connectors": [
+        "토스트 POS",
+        "세븐시프츠",
+        "스퀘어",
+        "마진엣지",
+        "구글 비즈니스 프로필",
+        "거스토",
+        "퀵북스 온라인",
+        "공유 브레인"
+      ],
+      "metrics": [
+        "기존점 매출 전년 대비 증감률",
+        "매출 대비 인건비 비율",
+        "식재료 원가율",
+        "구글 평균 평점·리뷰 증가 속도",
+        "방문객 수·구매 전환율"
+      ],
+      "brainUse": "모든 에이전트가 공유 브레인에서 적정 재고량, 거래처 조건, 조리법별 원가, 개점 점검표, 지점별 운영 지침을 확인합니다. 한 지점에서 효과를 본 개선안을 6개 지점 전체의 표준으로 확산합니다.",
+      "signaturePlay": "개점 전, 전날 밤의 토스트 매출과 당일 세븐시프츠 근무표를 불러와 지점별 시간대 방문객 수를 예측합니다. 인건비 목표를 초과하는 지점을 표시하고, 결원 충원 에이전트에 결근자 대체 인력 확보를 요청합니다. 오전 7시까지 인력·재고·리뷰 답변 준비 상태를 지점별 한 줄 요약으로 대표의 휴대전화에 전달합니다."
+    },
+    {
+      "id": "persona-ecommerce-dtc",
+      "order": 3,
+      "name": "직접 판매 브랜드 운영자",
+      "archetype": "직접 판매 브랜드 운영자",
+      "tagline": "감이 아닌 수익성을 기준으로 쇼피파이 브랜드를 혼자 운영합니다.",
+      "summary": "소비자에게 직접 판매하는 온라인 브랜드를 운영하며 쇼피파이 쇼핑몰, 유료 광고, 외부 물류 대행, 이메일·문자 기반 고객 유지를 한 화면에서 관리합니다. 주문당 공헌이익을 실시간으로 살피고, 에이전트가 손실 광고 중단·장바구니 이탈 고객 재유입·품절 위험 감지를 맡아 출시 차질을 줄입니다.",
+      "accent": "#e1306c",
+      "northStar": "광고비 차감 후 주문당 공헌이익 — 전체 주문 통합 기준",
+      "pillars": [
+        {
+          "name": "신규 고객 확보",
+          "focus": "유료 광고·유입 관리와 수익성 있는 주문 확보",
+          "agents": [
+            "광고비 점검",
+            "광고 소재 실험",
+            "전환 기여도 분석"
+          ]
+        },
+        {
+          "name": "쇼핑몰·전환 개선",
+          "focus": "상품 목록·상세 페이지·결제·전환율 개선",
+          "agents": [
+            "상품 목록 관리",
+            "전환율 실험",
+            "장바구니 복구"
+          ]
+        },
+        {
+          "name": "고객 유지",
+          "focus": "이메일·문자 자동화·고객 생애가치·재구매",
+          "agents": [
+            "자동화 흐름 설계",
+            "휴면 고객 재유입",
+            "리뷰 수집"
+          ]
+        },
+        {
+          "name": "물류·운영",
+          "focus": "재고·물류 대행·배송 약속·품절 예방",
+          "agents": [
+            "품절 위험 감지",
+            "출고 관리",
+            "반품 분류"
+          ]
+        },
+        {
+          "name": "수익성·재무",
+          "focus": "상품별 수익 구조·원가·고객 획득 비용·현금",
+          "agents": [
+            "수익성 점검",
+            "고객 획득비 검토",
+            "정산 내역 대조"
+          ]
+        }
+      ],
+      "connectors": [
+        "쇼피파이",
+        "메타 광고 관리자",
+        "구글 광고",
+        "틱톡 광고",
+        "클라비요",
+        "포스트스크립트",
+        "쉽밥(물류 대행)",
+        "스트라이프"
+      ],
+      "metrics": [
+        "주문당 공헌이익",
+        "통합 광고비 대비 매출",
+        "고객 획득 비용 대비 60일 고객 생애가치",
+        "재구매율",
+        "재고 소진까지 남은 일수"
+      ],
+      "brainUse": "모든 에이전트가 상품별 수익 구조, 브랜드 표현 방식, 우수 광고 소재의 학습 결과, 고객군 정보를 담은 공유 브레인을 참조합니다. 성과가 좋은 광고 메시지를 클라비요 자동화 흐름과 상품 상세 페이지 문구에 곧바로 반영합니다.",
+      "signaturePlay": "광고비 점검 에이전트가 밤사이 광고 세트별 지출을 쇼피파이 매출과 매출원가로 계산한 실제 공헌이익과 대조합니다. 손실 광고를 자동 중단하고, 수익성 높은 핵심 소재에 예산을 재배분하며, 전날 장바구니 이탈 고객에게 클라비요·포스트스크립트로 재방문 메시지를 보냅니다. 운영자는 손실을 줄이고 구매 기회를 회수한 상태로 하루를 시작합니다."
+    }
+  ]
+}
