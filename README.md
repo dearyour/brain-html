@@ -29,10 +29,10 @@ If you don't pick one, the skill chooses from what you're trying to learn: relat
 ## Install
 
 ```sh
-npx skills add dearyour/brain-html --skill brain-html --global --copy --yes
+npx skills add dearyour/brain-html --skill brain-html --agent claude-code codex --global --copy --yes
 ```
 
-Uses the open-source [Skills CLI](https://github.com/vercel-labs/skills). Add `--agent codex` or `--agent claude-code` to target one agent. Restart the agent or start a new session afterwards.
+Uses the open-source [Skills CLI](https://github.com/vercel-labs/skills). Installs to `~/.claude/skills/brain-html` (Claude Code) and `~/.agents/skills/brain-html` (Codex). Keep only one name after `--agent` to target a single agent. Start a new session afterwards.
 
 Manual install for Codex (refuses to overwrite an existing folder and verifies SHA-256 of every file):
 

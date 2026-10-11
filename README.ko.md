@@ -23,10 +23,10 @@
 ## 설치
 
 ```sh
-npx skills add dearyour/brain-html --skill brain-html --global --copy --yes
+npx skills add dearyour/brain-html --skill brain-html --agent claude-code codex --global --copy --yes
 ```
 
-오픈소스 [Skills CLI](https://github.com/vercel-labs/skills)를 사용한다. 특정 에이전트만 지정하려면 `--agent codex` 또는 `--agent claude-code`를 붙인다. 설치 후 새 세션을 시작한다.
+오픈소스 [Skills CLI](https://github.com/vercel-labs/skills)를 사용한다. `~/.claude/skills/brain-html`(Claude Code)과 `~/.agents/skills/brain-html`(Codex)에 설치된다. 하나만 쓰려면 `--agent` 뒤에 그 이름만 남긴다. 설치 후 새 세션을 시작한다.
 
 Codex 수동 설치(기존 폴더를 덮어쓰지 않고 모든 파일의 SHA-256을 검증):
 
